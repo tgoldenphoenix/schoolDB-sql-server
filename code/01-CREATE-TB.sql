@@ -76,5 +76,5 @@ ALTER COLUMN magvcn INT NULL;
 
 UPDATE hocsinh
 SET malop = null
-WHERE mahs = 20;
+WHERE mahs = 15;
 select * from lop;

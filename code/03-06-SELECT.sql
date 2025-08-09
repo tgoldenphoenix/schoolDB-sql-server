@@ -18,7 +18,7 @@ from hocsinh;
 
 select * from lop;
 
---cau06
+-- ===== cau06 =====
 select mahs, hoten_hs
 from hocsinh
 where gioi_tinh = 'nam';
