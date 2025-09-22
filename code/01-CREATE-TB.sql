@@ -1,6 +1,7 @@
 -- ==== Cau hoi 01 ====
--- 2 tables giaovien & monHoc do not have foreign key => create first
+-- 2 tables giaovien & monhoc KHONG CO foreign key => create first
 -- Khi insert data cung phai insert theo thu tu tao bang
+
 CREATE TABLE dbo.giaovien
 (
   magv int IDENTITY(1,1) not null,
